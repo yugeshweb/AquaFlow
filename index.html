@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AquaFlow Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>AquaFlow</h1>
+<div class="dashboard">
+
+  <!-- MOTOR CONTROL -->
+  <div class="section">
+    <h2>Motor Control</h2>
+    <div class="switches">
+      <button id="onBtn" onclick="setPump('ON')">ON</button>
+      <button id="offBtn" onclick="setPump('OFF')">OFF</button>
+    </div>
+  </div>
+
+  <!-- SENSOR STATUS -->
+  <div class="section">
+    <h2>Sensor Status</h2>
+    <div class="sensor-status">
+      <div><p>S1</p><div id="s1Status" class="status-dot"></div></div>
+      <div><p>S2</p><div id="s2Status" class="status-dot"></div></div>
+    </div>
+  </div>
+
+  <!-- WATER USAGE -->
+  <div class="section">
+    <h2>Water Usage</h2>
+    <div class="usage">
+      <div class="card"><p><b>Live</b></p><div class="value">₹<span id="livePrice">0</span></div><p><span id="liveLiters">0</span>L</p></div>
+      <div class="card"><p><b>Weekly</b></p><div class="value">₹<span id="weekPrice">0</span></div><p><span id="weekLiters">0</span>L</p></div>
+      <div class="card"><p><b>Monthly</b></p><div class="value">₹<span id="monthPrice">0</span></div><p><span id="monthLiters">0</span>L</p></div>
+    </div>
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <!-- LIVE FLOW -->
+  <div class="section">
+    <h2>Sensor Flow</h2>
+    <div class="flow">
+      <div class="card"><p><b>S1</b></p><div class="value"><span id="flow1">0</span> ml/sec</div></div>
+      <div class="card"><p><b>S2</b></p><div class="value"><span id="flow2">0</span> ml/sec</div></div>
+    </div>
+  </div>
+
+ <!-- LEAKAGE DETECTION -->
+<div class="section">
+  <h2>Leakage Detection</h2>
+  <div class="sensor-status">
+    <div>
+      <div id="leakStatus" class="status-dot"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT SECTION -->
+<div class="section">
+  <p>Project by <b>Yugesh</b></p>
+  <div class="social">
+  <a href="https://www.linkedin.com/in/yugeshweb" target="_blank" title="LinkedIn">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+</div>
+  </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

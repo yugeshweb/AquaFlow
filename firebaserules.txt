@@ -1,0 +1,22 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "data": {
+      ".read": true,
+      ".write": true
+    },
+    "pump": {
+      ".read": true,
+      ".write": true
+    },
+    "flow1": {
+      ".read": true,
+      ".write": true
+    },
+    "flow2": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}

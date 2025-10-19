@@ -1,0 +1,11 @@
+#ifndef TOKEN_HELPER_H
+#define TOKEN_HELPER_H
+
+// Provide the token generation process info
+void tokenStatusCallback(TokenInfo info){
+  Serial.printf("Token info: type = %s, status = %s\n",
+                getTokenType(info).c_str(),
+                getTokenStatus(info).c_str());
+}
+
+#endif
