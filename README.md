@@ -8,6 +8,9 @@ A smart water flow monitoring and pump control system that combines IoT hardware
 
 AquaFlow is a comprehensive water management solution designed to monitor and control water distribution in real-time. The system uses flow sensors to track water usage, calculates costs, detects anomalies, and allows remote pump control through a cloud-connected interface.
 
+![Aquaflow1](https://github.com/user-attachments/assets/72607269-7489-42e1-a6ae-1a0dbaf20fd1)
+
+
 ### Key Features
 
 - **Dual Flow Monitoring:** Real-time tracking of two independent water flow sensors (YF-S401)
