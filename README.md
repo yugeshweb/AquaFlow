@@ -110,7 +110,7 @@ Connect components according to the pin configuration:
 
 ## Usage
 
-### Dashboard Controls
+### Dashboard Controls ###
 
 - **Motor Control Section:** Click ON/OFF buttons to control the pump remotely
 - **Sensor Status:** Green indicators show active flow in each sensor
