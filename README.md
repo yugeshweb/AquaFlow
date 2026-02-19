@@ -196,7 +196,7 @@ const isNormal = Math.abs(lastF1 - lastF2) < 0.05; // Change 0.05 to desired thr
 
 ## License
 
-This project is provided as is for personal and educational use.
+This project is provided as-is for personal and educational use.
 
 ## Support & Contact
 
